@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="gen/cg_content.xsl"?>
+
+<courseGenie>
+
+<metadata>
+	<lom>
+		<general>
+			<title>
+				<string>Tipologías de pantallas</string>
+				<language>es</language>
+			</title>
+			<description>
+				<string>Contenido demo para proceso de homologación</string>
+				<language>es</language>
+			</description>
+		</general>
+	</lom>
+	<misc>
+		<item>
+			<key>Author</key>
+			<value>Formación Digital</value>
+		</item>
+		<item>
+			<key>Organisation</key>
+			<value>GrupoGDT</value>
+		</item>
+		<item>
+			<key>creator</key>
+			<value>Wimba Create</value>
+		</item>
+	</misc>
+</metadata>
+<settings>
+	<pageroot>fd</pageroot>
+	<sectionmode>current</sectionmode>
+	<exportmode>singlescorm2004</exportmode>
+	<assessmentmode>none</assessmentmode>
+	<generateindex>True</generateindex>
+	<showtoc>False</showtoc>
+	<tocwidth>180</tocwidth>
+	<shownavigation>False</shownavigation>
+	<footer>Formación Digital S.L.</footer>
+	<singlepage>False</singlepage>
+	<hyperlinksmain>False</hyperlinksmain>
+	<popupsmain>True</popupsmain>
+	<idstring>CG2013321184417</idstring>
+	<scorm-questionmode>selftest</scorm-questionmode>
+	<scorm-masteryscore>0</scorm-masteryscore>
+	<cgbuild>2.5.4 Build 20100831</cgbuild>
+	<schemefolder>c:/archivos de programa/wimbacreate/resources/es.lproj/schemes/Tec_Monterry</schemefolder>
+</settings>
+
+<newpage>
+<pagetitle>Introducción</pagetitle>
+<section/>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para/>
+
+<para  align="left">En esta primera unidad didáctica vamos a mostrar un conjunto de pantallas en las cuales se podrá observar los distintos modelos de contenidos a utilizar a la hora de desarrollar un curso.</para>
+<para  align="left">Los distintos modelos que se van a mostrar en esta unidad son:</para>
+<para  align="left">Pantallas de texto plano, texto con imagen, definición de término, citas, recordatorios, texto recuadrado, tablas elementos interactivos, audio y vídeo.</para>
+<para  align="left">Todos estos modelos pueden convivir entre sí, esto significa que cualquier pantalla de contenido puede estar formado por uno o más de los modelos citados anteriormente</para>
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Texto plano</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para/>
+
+<para  align="left">Este modelo es el más simple de todos y está formada por texto plano. </para>
+<para  align="left">El texto que aparece en este modelo puede ir en negrita, cursiva,... </para>
+<para/>
+
+<para  align="left"><b>Ejemplo</b>:</para>
+<para  align="left">En primer lugar, si nos centramos en su situación geográfica, <b>Europa</b>  se encuentra en la mitad oriental del Hemisferio Norte, limitando al norte con el Océano Glacial Ártico; al sur con el Mar Mediterráneo, Mar Negro y la cordillera del Cáucaso; al este con Asia, de quien está separada por los Montes Urales, el río Ural, y el Mar Caspio, y al oeste con el Océano Atlántico. Todo ello se puede observar en el siguiente mapa.</para>
+<para  align="left">Europa se comunica fácilmente con todas las partes del mundo, ya que está unida a Asia tanto por su tronco continental como por sus estrechos. Asimismo, se halla próximo a África a través del estrecho de Gibraltar y se asoma al oeste sobre el Atlántico en su parte más estrecha.</para>
+</newpage>
+
+<newpage>
+<pagetitle>Texto con imagen</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para  align="left">En este tipo de pantalla nos encontraremos un texto asociada a la imagen. La disposición de  estos elementos puede ser una de las siguientes:</para>
+
+<list type="2" level="1" start="1">
+	<item level="1">Texto justo encima de la imagen.</item>
+	<item level="1">Texto justo debajo de la imagen.</item>
+	<item level="1">Texto junto a la imagen.</item>
+</list>
+
+<para/>
+
+<para  align="left"><b>Ejemplo:</b></para>
+<para  align="left"><image alt="" width="97" height="153" class="leftalign">pic001.jpg</image></para>
+<para  align="left">América del Norte es una región o subcontinente que forma parte de América, el segundo continente más grande del mundo, después de Asia y al mismo tiempo, uno de los menos densamente poblados por su gran superficie.</para>
+<para/>
+
+<para/>
+
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Definición de término</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para/>
+
+<para  align="left">Este modelo se usa principalmente cuando queremos recalcar la definición de un término. </para>
+<para  align="left"><b>Ejemplo</b></para>
+<para/>
+
+<definition>
+<term>Turismo</term>
+<para  align="left">Según la Organización Mundial del Turismo,[cita requerida] el turismo comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos al de su entorno habitual, por un período consecutivo inferior a un año y mayor a un día, con fines de ocio, por negocios o por otros motivos.</para>
+<para  align="left">Arthur Bormann (Berlín, 1930) define el turismo como el conjunto de los viajes cuyo objeto es el placer o por motivos comerciales o profesionales y otros análogos, y durante los cuales la ausencia de la residencia habitual es temporal, no son turismo los viajes realizados para trasladarse al lugar de trabajo.1</para>
+</definition>
+<para/>
+
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Cita</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este tipo de pantalla se usa cuando queremos resaltar una cita.</para>
+<para  align="left"><b>Ejemplo</b></para>
+<para/>
+
+<quotetext>
+<para  align="left"><i>La gente viaja para conocer al otro, su historia y costumbres, porque al descubrir lo diferente, aprende más sobre sí mismo. (Lic. Lisandro Hormaeche, docente de la carrera de Turismo en La Pampa).:</i></para>
+<para  align="left"><i>Viajar es imprescindible y la sed de viaje, un síntoma neto de inteligencia. (Enrique Jardiel Poncela, 1901- 1952, escritor y dramaturgo español).</i></para>
+</quotetext>
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Texto Recuadrado</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para/>
+
+<para  align="left">Cuando queremos recuadrar un contenido es muy útil utilizar </para>
+<para  align="left"><b>Ejemplo</b>:</para>
+<para/>
+
+<boxtext>
+<para  align="left">Además de estas grandes ciudades, podemos mencionar otras importantes, tales como las italianas Florencia, Roma o Venecia, esta última conocida como la ciudad de las calles de agua y sus góndolas; Lisboa en Portugal; Dubrovnik en Croacia; Edimburgo, capital de Escocia; Montecarlo, considerada como ciudad del ocio desde mediados del siglo XIX por su Casino y por ser una de sus avenidas parte del circuito de la Fórmula 1; Varsovia, la ciudad más grande de Polonia y capital del país.</para>
+</boxtext>
+<para/>
+
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Texto Recordatorio</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este modelo se usa cuando consideramos que un texto debe ser recordado.</para>
+<para  align="left"><b>Ejemplo:</b></para>
+<para/>
+
+<paneltext>
+<para  align="left">Europa es el segundo continente más pequeño tras Oceanía, el cuarto más poblado después de Asia, África y América y el segundo más densamente poblado tras Asia. Asimismo, el continente europeo está constituido por 8 penínsulas: Península Escandinava, Ibérica, Itálica, Balcánica, Jutlandia, Kola, Bretaña y Crimea.</para>
+<para  align="left">Europa ocupa un lugar privilegiado a escala mundial dentro del sector turístico, siendo Francia y España los principales países receptores del continente y el segundo y tercero respectivamente, detrás de Estados Unidos (Norte América) a escala mundial. </para>
+<para/>
+
+<para  align="left">África es el tercer continente más grande del mundo y uno de los más subdesarrollados. Se divide en tres regiones: África blanca o mediterránea, África negra o subsahariana (la más subdesarrollada) y África austral o Sudáfrica.</para>
+</paneltext>
+<para/>
+
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Tabla</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este tipo de modelo se usa cuando queremos mostrar la información en tablas </para>
+<para  align="left"><b>Ejemplo:</b></para>
+<para  align="left">Tabla. Viajes, pernoctaciones y estancia media de los viajes
+de los residentes en España según destino</para>
+
+<cg_table  width="100%" rows="4" cols="3" align="left" border="true">
+	<row>
+		<cell  head="column" width="33%" align="center" valign="top" >
+</cell>
+		<cell  head="column" width="33%" align="center" valign="top" >Turismo Emisor
+</cell>
+		<cell  head="column" width="33%" align="center" valign="top" >Turismo Interno
+</cell>
+	</row>
+	<row>
+		<cell  head="row" width="33%" align="left" valign="middle" >Número de viajes
+</cell>
+		<cell  width="33%" align="center" valign="top" >13.129.497
+</cell>
+		<cell  width="33%" align="center" valign="top" >147.373.496
+</cell>
+	</row>
+	<row>
+		<cell  head="row" width="33%" align="left" valign="middle" >Número de pernoctaciones
+</cell>
+		<cell  width="33%" align="center" valign="top" >119.753.191
+</cell>
+		<cell  width="33%" align="center" valign="top" >649.805.299
+</cell>
+	</row>
+	<row>
+		<cell  head="row" width="33%" align="left" valign="middle" >Estancia Media
+</cell>
+		<cell  width="33%" align="center" valign="top" >9,1
+</cell>
+		<cell  width="33%" align="center" valign="top" >4,4
+</cell>
+	</row>
+</cg_table>
+
+<summary>cgSummary. Aqui se añade el texto que se incluye en la tabla, para hacerla más accesible. No aparece en la web, forma parte del código.</summary>
+<para/>
+
+</newpage>
+
+<newpage>
+<pagetitle>Elementos Interactivos</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+		swfobject.embedSWF("media/ sensible_fact_plan_inversion.swf", "elementoFlash", "680", "153", "9.0.0");
+</script>
+
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este tipo de modelo se usa cuando queremos insertar un elemento multimedia en el que queremos que haya interacción con el usuario</para>
+
+
+<media type="flash">
+	<file>sensible_fact_plan_inversion.swf</file>
+	<path>Captivate\</path>
+	<width>424</width>
+	<height>283</height>
+	<autostart>true</autostart>
+	<loop>false</loop>
+	<align>center</align>
+	<playerlink>false</playerlink>
+	<longdesc></longdesc>
+	<caption></caption>
+</media>
+
+<para/>
+
+<caption>Pase el ratón sobre las imágenes para obtener más información.</caption>
+</newpage>
+
+<newpage>
+<pagetitle>Elemento Audio</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+		swfobject.embedSWF("media/Locucion0_Tema1.swf", "elementoFlash", "618", "200", "9.0.0");
+</script>
+
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este tipo de modelo se usa cuando queremos insertar un audio en nuestra pantalla. </para>
+
+
+<media type="flash">
+	<file>Locucion1_Tema2.swf</file>
+	<path>Captivate\</path>
+	<width>630</width>
+	<height>140</height>
+	<autostart>true</autostart>
+	<loop>false</loop>
+	<align>center</align>
+	<playerlink>false</playerlink>
+	<longdesc></longdesc>
+	<caption></caption>
+</media>
+
+<para/>
+
+<para  align="left">El texto del audio siempre estará operativo para que el alumno tenga tanto la alternativa de sonido y de texto. </para>
+</newpage>
+
+<newpage>
+<pagetitle>Elemento Vídeo</pagetitle>
+<para/>
+
+<htmlheadinclude>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+		swfobject.embedSWF("media/v1_1.swf", "elementoFlash", "618", "200", "9.0.0");
+</script>
+
+</htmlheadinclude>
+<para/>
+
+<para  align="left">Este tipo de modelo se usa cuando queremos insertar un vídeo en nuestra pantalla. </para>
+
+
+<media type="flash">
+	<file>v1_1.swf</file>
+	<path>Captivate\</path>
+	<width>350</width>
+	<height>300</height>
+	<autostart>true</autostart>
+	<loop>false</loop>
+	<align>center</align>
+	<playerlink>false</playerlink>
+	<longdesc></longdesc>
+	<caption></caption>
+</media>
+
+<para/>
+
+<para/>
+
+
+
+
+
+
+</newpage>
+
+
+</courseGenie>
+

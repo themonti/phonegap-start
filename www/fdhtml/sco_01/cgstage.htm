@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 6]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 6]>         <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<script src="cgscorm.js" type="text/javascript" language="JavaScript"></script><title>Tipologías de pantallas</title>
+		<script src="js/lib_config_player.js" type="text/javascript" language="JavaScript"></script>
+		<script type="text/javascript" language="JavaScript">
+
+		function supports_canvas() {
+			var test_canvas = document.createElement("canvas");
+			var canvascheck=(test_canvas.getContext)? true : false 
+			return canvascheck;
+		}
+
+		function supports_multimedia(audio) {
+			var test_multimedia = document.createElement(audio);
+			var check=(test_multimedia.canPlayType)? true : false 
+			return check;
+		}
+
+
+		var g_nSCO_ScoreMin = 0;
+		var g_nSCO_ScoreMax = 0;
+		var g_SCO_MasteryScore = 0; // may be set to null
+
+		var znNavigablePages=10;
+		var znThisPage=0;
+		var zaSuspendStatus="suspend";
+		var znSuspendLocation="";
+		var zaSuspendData="";
+		var zaVisitedPages = new Array(znNavigablePages + 1);
+		var znStartPage=1;
+
+		var znQuestionCount=0;
+		var znQuestionScores = new Array(znQuestionCount + 1);
+		initArray(znQuestionScores,0);
+
+		var cgPageRoot = "fd";
+		var cgPageFolder = "slow";
+		try{
+			if(supports_canvas() && supports_multimedia('audio') && supports_multimedia('video')){
+			cgPageFolder = "html5";
+			}else{
+				cgPageFolder = "slow";
+			}
+		}catch(e){
+			cgPageFolder = "slow";
+		}
+		
+		function changeView(){
+			if(cgPageFolder=="slow"){
+				if(supports_canvas() && supports_multimedia('audio') && supports_multimedia('video')){
+					cgPageFolder = "html5";
+					GoToPageVersion(znThisPage);
+				}else{
+					if (confirm("Su navegador no soporta este modo con lo cual no visualizara los contenidos correctamente. Seguro que quiere cambiar a dicho modo?")){
+						cgPageFolder = "html5";
+						GoToPageVersion(znThisPage);
+					}
+				}
+			}else{
+				cgPageFolder = "slow";
+				GoToPageVersion(znThisPage);
+			}
+		}
+		</script>
+</head>
+<frameset rows="100%,*" >
+<frame name="cg_stage" src="loader.htm" scrolling="no">
+<frame src="dummypage.htm">
+</frameset>
+</html>

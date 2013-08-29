@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="description" content="Contenido demo para proceso de homologación">
+<meta name="keywords" content="">
+<meta name="Author" content="Formación Digital">
+<meta name="Organisation" content="GrupoGDT">
+<meta name="creator" content="Formacion Digital">
+
+<title>ANIMACIÓN</title>
+<link rel="stylesheet" type="text/css" href="cg.css">
+<!--[if lte IE 7]>
+<style>
+ /* Hides from IE5-mac \*/
+ * html div {height: 1%;}
+ /* End hide from IE5-mac */ 
+</style>
+<![endif]-->
+<script src="cgmain.js" type="text/javascript" language="JavaScript"></script><script src="cglocale.js" type="text/javascript" language="JavaScript"></script>
+
+
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/libreria.js"></script>
+</head>
+
+
+
+<body dir="ltr">
+<div id="carcasa">
+
+<script type="text/javascript" language="JavaScript">
+window.parent.SetThisPage(9);
+</script>
+
+<noscript>Tu navegador no admite Javascript. Deberías poder navegar por todo el contenido excepto por las autoevaluaciones.</noscript>
+
+<a href="#Main" id="skipanchor"><img src="buttons/btn_skip.gif" alt="Volver a la página principal" width="1" height="1" border="0"></a><div id="header">
+
+<a name="_top"></a>
+
+<h1>Tipologías de pantallas</h1>
+
+</div>
+
+
+<div id="titulo_pantalla">
+<a name="Main"></a>
+
+<h2>ANIMACIÓN</h2>
+</div>
+<div id="main-content-notoc">
+	<p><b>Ejemplo de animación:</b></p>
+	<p>Al no estar incluido este módelo dentro en los niveles de producción más bajos, se muestra la imagen de partida de la animación y el texto explicando la animación.</p>
+	<p><img src="images/animacion.jpg" border="0" width="226" height="234"  class="img_leftalign"></img>
+	<b>1.</b> Supongamos que partimos de una situación como la que se muestra en la figura con la tabla NAT vacía y en la que el PC1 envía datos al servidor S1 que está conectado a Internet.<br/>
+	<b>2.</b> Cuando el paquete llega al router, éste incluye en su tabla la equivalencia entre la dirección de origen privada (172.16.1.10) y la dirección pública que le asigna para que el paquete pueda ser enrutado en Internet. En este caso, la dirección asignada es la primera que hay libre en el pool de direcciones (previamente configurado en el NAT) : 200.2.2.10<br/>
+	<b>3.</b> Cuando vuelve la respuesta desde S1, su dirección de origen es la de S1 (205.2.1.6) y de destino la que el router asignó al hacer NAT (200.2.2.10).<br/>
+	<b>4.</b> Para que el paquete pueda ser entregado a su destinatario en la red local, es necesario revertir el cambio inicial. Para ello, el router consulta su tabla de NAT buscando el registro con dirección de salida 200.2.2.10, y sustituye en el paquete dicha dirección con la original: 172.16.1.10. Una vez realizado el cambio, ya puede reenviar el paquete a través de la interfaz local correspondiente para que llegue la respuesta a PC1.
+</div>
+
+
+
+<div id="footer-notoc">
+
+
+<p>Formación Digital S.L.</p>
+
+</div>
+
+
+
+</div>
+</body>
+
+</html>

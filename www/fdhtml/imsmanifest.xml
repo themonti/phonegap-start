@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest 
+	xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" 
+	xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" 
+	xmlns:imsss="http://www.imsglobal.org/xsd/imsss" 
+	xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" 
+	xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" 
+	xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:c2lcp="http://www.sumtotalsystems.com/xsd/c2l_cp_rootv1p1" 
+	identifier="FD_DPH01ES001" version="1.2" 
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd            
+	http://ltsc.ieee.org/xsd/LOM lomcustomco.xsd            
+	http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd            
+	http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd            
+	http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd            
+	http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+	http://www.sumtotalsystems.com/xsd/c2l_cp_rootv1p1 c2l_cp_rootv1p1.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <imsmd:lom>
+      <imsmd:general>
+        <imsmd:entry>FD_DEMOTEC</imsmd:entry>
+        <imsmd:title>
+          <imsmd:string>Curso demo proceso homologación</imsmd:string>
+        </imsmd:title>
+        <imsmd:language>es</imsmd:language>
+        <imsmd:description>
+	  <imsmd:string>
+	  <![CDATA[
+	<table width="700" border="0" align="center" cellpadding="4" cellspacing="8" bgcolor="#FFFFFF">
+	<tr>
+	<td width="75%" align="left" valign="top">
+	<p>En este curso se van a mostra una unidad de aprendizaje con tipología de pantallas.
+	</p></td>
+	<td width="25%" rowspan="3" align="center" valign="top">
+	<table width="100%"  border="0" cellpadding="3" cellspacing="6" bgcolor="#FF6600">
+	<tr>
+	<th scope="col">Verificaci&oacute;n T&eacute;cnica</th>
+	</tr>
+	<tr>
+	<td bgcolor="#FFFFFF"><p align="center"><strong>&iexcl;&iexcl;Atenci&oacute;n!!</strong> </p>
+	<p align="left">Es necesario que antes de acceder al curso verifiques que tu equipo cumple con los requisitos t&eacute;cnicos necesarios.</p>
+	<p align="left">Pulsa en el siguiente enlace para realizar la comprobaci&oacute;n.</p>
+	<p align="center" style="color:#FF9900; font-size:16px; font-weight:bold; text-decoration:underline; "><a href="/bbva/data/lang-es/tester/tester2/index.html" target="_blank">Verificar equipo</a>  </p></td>
+	</tr>
+	</table>
+	</tr>
+	<tr>
+	<td width="75%" align="left" valign="top"><p>Objetivos:</p>
+	<ul>
+	<li>Valorar los distintos modelos a utilizar a la hora de eleborar un contenido.</li>
+	<li>Ver las diferentes carcasas en funci&oacute;n del navegador y/o dispositivo utilizado para ver los contenidos.</li>
+	</ul>
+	</td>
+	</tr>
+	<tr>
+	<td width="75%" align="left" valign="top"><p>&Iacute;ndice:</p>
+	<ol>
+	<li>Tipolog&iacute;a de pantallas.</li>
+	</ol>
+	</td>
+	</tr>
+	</table>
+	   ]]>
+	  </imsmd:string>
+        </imsmd:description>
+      </imsmd:general>
+    </imsmd:lom>
+  </metadata>
+<organizations default="TOC1">
+	<organization identifier="TOC1">
+	<title>Demo Tipologías de Pantallas</title>
+	<item identifier="SCO0_item" identifierref="SCO0_resource">
+        <title>Tipologías de pantallas</title>
+        <adlnav:presentation>
+			<adlnav:navigationInterface>
+				<adlnav:hideLMSUI>continue</adlnav:hideLMSUI>
+				<adlnav:hideLMSUI>previous</adlnav:hideLMSUI>
+				<adlnav:hideLMSUI>suspendAll</adlnav:hideLMSUI>
+				<adlnav:hideLMSUI>exitAll</adlnav:hideLMSUI>
+			</adlnav:navigationInterface>
+		</adlnav:presentation>
+		<imsss:sequencing>
+			<imsss:controlMode choice="true" choiceExit="true" flow="true" fowardOnly="false"/>
+			<imsss:rollupRules objectiveMeasureWeight="0.0000" rollupObjectiveSatisfied="false" rollupProgressCompletion="true"/>
+			<imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="false"/>
+		</imsss:sequencing>
+	</item>
+	 <imsss:sequencing>
+		<imsss:controlMode choice="true" choiceExit="true" flow="true" forwardOnly="false" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false"/>
+			<imsss:rollupRules rollupProgressCompletion="true" rollupObjectiveSatisfied="true">
+			<imsss:rollupRule childActivitySet="all">
+				<imsss:rollupConditions>
+					<imsss:rollupCondition condition="completed"/>
+				</imsss:rollupConditions>
+				<imsss:rollupAction action="completed"/>
+			</imsss:rollupRule>
+			<imsss:rollupRule childActivitySet="any">
+				<imsss:rollupConditions>
+					<imsss:rollupCondition condition="satisfied"/>
+				</imsss:rollupConditions>
+				<imsss:rollupAction action="satisfied"/>
+			</imsss:rollupRule>
+		</imsss:rollupRules>
+		<imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+	</imsss:sequencing>
+	</organization>
+</organizations>
+<resources>
+	<resource identifier="SCO0_resource" type="webcontent" adlcp:scormType="sco" href="sco_01/cgstage.htm">
+      <file href="sco_01/cgstage.htm"/>
+    </resource>
+</resources>
+<!--<c2lcp:ItemDataExtra>
+    <c2lcp:ItemData Type="Course">
+      <c2lcp:ItemSpecificData>
+        <c2lcp:CourseData>
+          <c2lcp:PackageProperties>
+            <c2lcp:CourseDisplay>
+              <c2lcp:ShowNavBar>yes</c2lcp:ShowNavBar>
+				<c2lcp:TOC>
+					<c2lcp:MaxWidth>150</c2lcp:MaxWidth>
+					<c2lcp:ScrollBar>no</c2lcp:ScrollBar>
+					<c2lcp:BackgroundColor>ffffff</c2lcp:BackgroundColor>
+				</c2lcp:TOC>
+            </c2lcp:CourseDisplay>
+            <c2lcp:Launch>
+              <c2lcp:Width>790</c2lcp:Width>
+              <c2lcp:Height>520</c2lcp:Height>
+              <c2lcp:AllowResize>no</c2lcp:AllowResize>
+            </c2lcp:Launch>
+          </c2lcp:PackageProperties>
+        </c2lcp:CourseData>
+      </c2lcp:ItemSpecificData>
+    </c2lcp:ItemData>
+  </c2lcp:ItemDataExtra>-->
+</manifest>

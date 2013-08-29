@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/sidr/css/jquery.sidr.light.css">
+        <link rel="stylesheet" href="vendor/circleplayer/css/not.the.skin.css">
+        <link rel="stylesheet" href="vendor/circleplayer/circle.skin/circle.player.css">
+        <link rel="stylesheet" href="vendor/font_awesome/css/font-awesome.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/font_awesome/css/font-awesome-ie7.min.css" type="text/css" media="screen">
+        
+        <!-- Customizations here --> 
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" language="JavaScript">
+			window.parent.SetThisPage(8);
+		</script>
+    </head>
+    <body class="quita-scroll-horizontal">
+        <div id="header">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span2 logoCabecera">
+                        <img src="img/logo_cabecera.png">
+                    </div>
+                    <div class="span10 visible-desktop">
+                        <div class="tituloModulo">Modelos Pedagógicos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <a href="#">
+                        <div class="bot_cerrar"><i class="icon-remove-circle"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="franja_titulo">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="tituloModulo2 hidden-desktop">Modelos Pedagógicos</div>
+                </div>
+            </div>
+        </div>
+        <div id="franja_botonera">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="iconosMenu">
+                        <div class="botonesGenerales">
+                            <a id="simple-menu" href="#sidr" class="pull-left margin_dcha_15 "><i class="icon-th icon-large"></i> Índice</a>
+
+                            <!--<a id="btn-menu" href="#" class="pull-left margin_dcha_15 visible-phone"><i class="icon-th icon-large"></i> Índice</a>-->
+
+                            <a href="ayuda.htm" class="pull-left margin_dcha_15"><i class="icon-question-sign icon-large"></i> Ayuda</a>
+                            <a href="glosario.htm" class="pull-left margin_dcha_15"><i class="icon-book icon-large"></i> Glosario</a>
+                            <a href="javascript:parent.changeView();" class="pull-left"><i class="icon-desktop icon-large"></i> Modo</a>
+                        </div>
+                        <div class="botoneraNavegacion pull-right">
+                            <div class="pull-right">
+                                <a href="fd_09.htm"><i class="icon-circle-arrow-right icon-large"></i></a>
+                            </div>
+                            <div class="pull-right paginador">8/10</div>
+                            <div class="pull-right">
+                                <a href="fd_07.htm"><i class="icon-circle-arrow-left icon-large"></i></a>
+                            </div>
+                            <div class="pull-right progreso">Progreso: <span id="score_progress" class="negrita">100%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contenedorgeneral">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div id="cajaContenido">
+						<!-- TITULO DE LA PANTALLA -->
+                        <div class="margin_top_15 tituloContenido">Audio</div>
+                       
+                        <!-- INICIO CONTENIDO DE LA PAGINA -->
+
+                        <p class="negrita">Ejemplo Audio:</p>
+						<div class="row-fluid">	
+                            <div class="audio pull-left">
+								<div id="locucion" class="cp-jplayer"><img id="jp_poster_0">
+                                    <audio id="jp_audio_0" preload="metadata"></audio>
+                                </div>
+								<div id="cp_locucion" class="cp-container">
+									<div class="cp-buffer-holder">
+										<div class="cp-buffer-1"></div>
+										<div class="cp-buffer-2"></div>
+									</div>
+									<div class="cp-progress-holder">
+										<div class="cp-progress-1"></div>
+										<div class="cp-progress-2"></div>
+									</div>
+									<div class="cp-circle-control"></div>
+									<ul class="cp-controls">
+										<li><a class="cp-play" tabindex="1" >play</a></li>
+										<li><a class="cp-pause" tabindex="1">pause</a></li>
+									</ul>
+								</div>
+								<!--<p class="txtCentrado"><a href="locus/a3_5_11a.mp3" target="_blank">Descargar audio</a></p>-->
+                            </div>
+                            <p class="textoAudio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="row-fluid">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                        </div>
+
+                        
+						<!-- FIN CONTENIDO DE LA PAGINA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            © Campus BBVA. Todos los derechos reservados.
+        </div>
+        <div id="sidr" class="hide">
+            <ul>
+                <a href="fd_01.htm"><li>Texto plano</li></a>
+                <a href="fd_02.htm"><li>Texto con imagen</li></a>
+                <a href="fd_03.htm"><li>Textos destacados I</li></a>
+                <a href="fd_04.htm"><li>Textos destacados II</li></a>
+                <a href="fd_05.htm"><li>Tabla</li></a>
+                <a href="fd_06.htm"><li>Tabla / Acordeón</li></a>
+                <a href="fd_07.htm"><li>Elementos interactivos</li></a>
+                <li class="marcada"><i class="icon-chevron-right"></i> Audio</li>
+                <a href="fd_09.htm"><li>Animación</li></a>
+                <a href="fd_10.htm"><li>Vídeo</li></a>
+            </ul>
+        </div>
+        <!-- CAPAS POPUP -->
+        <!-- FIN CAPAS POPUP -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="vendor/jquery/jquery-1.8.2.min.js"><\/script>');
+        </script>
+        <!-- Include the Sidr JS -->
+        <script src="vendor/sidr/jquery.sidr.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/circleplayer/js/jquery.grab.js"></script>
+        <script src="vendor/circleplayer/js/jquery.jplayer.js"></script>
+        <script src="vendor/circleplayer/js/jquery.transform2d.js"></script>
+        <script src="vendor/circleplayer/js/mod.csstransforms.min.js"></script>
+        <script src="vendor/circleplayer/js/circle.player.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function(){
+
+				var locucion_a = new CirclePlayer("#locucion",
+						{
+							mp3: "locus/a3_5_11a.mp3",
+						}, {
+							cssSelectorAncestor: "#cp_locucion",
+							swfPath: "vendor/circleplayer/js",
+							supplied: "mp3",
+							wmode: "window"
+						});
+					
+			});
+		</script>
+        <script src="js/main.js"></script>
+
+</body></html>

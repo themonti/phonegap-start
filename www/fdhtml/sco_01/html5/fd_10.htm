@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/sidr/css/jquery.sidr.light.css">
+        <link rel="stylesheet" href="vendor/font_awesome/css/font-awesome.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="vendor/font_awesome/css/font-awesome-ie7.min.css" type="text/css" media="screen">
+        <!--JPLAYER -->
+        <link rel="stylesheet" href="vendor/jplayer/skin/blue.monday/jplayer.blue.monday.css" type="text/css" media="screen">
+        <!-- Customizations here --> 
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" language="JavaScript">
+			window.parent.SetThisPage(10);
+		</script>
+    </head>
+    <body class="quita-scroll-horizontal">
+        <div id="header">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span2 logoCabecera">
+                        <img src="img/logo_cabecera.png">
+                    </div>
+                    <div class="span10 visible-desktop">
+                        <div class="tituloModulo">Modelos Pedagógicos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <a href="#">
+                        <div class="bot_cerrar"><i class="icon-remove-circle"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="franja_titulo">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="tituloModulo2 hidden-desktop">Modelos Pedagógicos</div>
+                </div>
+            </div>
+        </div>
+        <div id="franja_botonera">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="iconosMenu">
+                        <div class="botonesGenerales">
+                            <a id="simple-menu" href="#sidr" class="pull-left margin_dcha_15 "><i class="icon-th icon-large"></i> Índice</a>
+
+                            <!--<a id="btn-menu" href="#" class="pull-left margin_dcha_15 visible-phone"><i class="icon-th icon-large"></i> Índice</a>-->
+
+                            <a href="ayuda.htm" class="pull-left margin_dcha_15"><i class="icon-question-sign icon-large"></i> Ayuda</a>
+                            <a href="glosario.htm" class="pull-left margin_dcha_15"><i class="icon-book icon-large"></i> Glosario</a>
+                            <a href="javascript:parent.changeView();" class="pull-left"><i class="icon-desktop icon-large"></i> Modo</a>
+                        </div>
+                        <div class="botoneraNavegacion pull-right">
+                            <div class="pull-right desactivo">
+                                <i class="icon-circle-arrow-right icon-large"></i>
+                            </div>
+                            <div class="pull-right paginador">10/10</div>
+                            <div class="pull-right">
+                                <a href="fd_09.htm"><i class="icon-circle-arrow-left icon-large"></i></a>
+                            </div>
+                            <div class="pull-right progreso">Progreso: <span id="score_progress" class="negrita">100%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contenedorgeneral">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div id="cajaContenido">
+						<!-- TITULO DE LA PANTALLA -->
+                        <div class="margin_top_15 tituloContenido">Vídeo</div>
+                       
+                        <!-- INICIO CONTENIDO DE LA PAGINA -->
+                        <p class="negrita">Ejemplo Vídeo:</p>
+						<div class="row-fluid">
+   							
+    							<!-- INICIO VIDEO -->
+    							<div class="modelo_video pull-left hidden-phone">
+    								<div id="jp_container_1" class="jp-video jp-video-270p">
+    									<div class="jp-type-single">
+    										<div id="jquery_jplayer_video" class="jp-jplayer"></div>
+    										<div class="jp-gui">
+    											<div class="jp-video-play">
+    												<a href="javascript:;" class="jp-video-play-icon" tabindex="1">play</a>
+    											</div>
+    											<div class="jp-interface">
+    												<div class="jp-progress">
+    													<div class="jp-seek-bar">
+    														<div class="jp-play-bar"></div>
+    													</div>
+    												</div>
+    												<div class="jp-current-time"></div>
+    												<div class="jp-duration"></div>
+    												<div class="jp-controls-holder">
+    													<ul class="jp-controls">
+    														<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+    														<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+    														<li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+    														<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+    														<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+    														<li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+    													</ul>
+    													<div class="jp-volume-bar">
+    														<div class="jp-volume-bar-value"></div>
+    													</div>
+    													<ul class="jp-toggles">
+    														<li><a href="javascript:;" class="jp-full-screen" tabindex="1" title="full screen">full screen</a></li>
+    														<li><a href="javascript:;" class="jp-restore-screen" tabindex="1" title="restore screen">restore screen</a></li>
+    														<li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+    														<li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+    													</ul>
+    												</div>
+    												<div class="jp-title">
+    													<ul>
+    														<li>Decisión sabia</li>
+    													</ul>
+    												</div>
+    											</div>
+    										</div>
+    										<div class="jp-no-solution">
+    											<span>Requiere actualización</span>
+    											Para reproducir el video o bien necesita actualizar su navegador o actualizar el <a href="http://get.adobe.com/flashplayer/" target="_blank">plugin de Flash</a>
+    										</div>
+    									</div>
+    								</div>								
+    							</div>
+							    <!-- FIN VIDEO -->
+								<!-- INICIO VIDEO PHONE -->
+								<div class="modelo_video pull-left visible-phone">
+									<a href="#">
+									<video id="video_mobile" autobuffer width="100%" poster="img/poster.png" class="borderVideo">
+										<source src="media/video/v10a.m4v">
+										<source src="media/video/v10a.webm" type="video/webm">
+										<source src="media/video/v10a.ogv" type="video/ogg">
+									</video>
+									</a>
+									Pulse sobre la imagen para reproducir el vídeo.
+								</div>
+								<!-- FIN VIDEO PHONE-->
+								
+                                <p>Hace algunos años, ambos participamos como pareja en un programa de televisión sobre cultura general. Justo cuando estábamos a punto de acceder a la final, cometimos un fallo estúpido que ha pasado a los anales de la historia de la televisión como la forma más necia de perder cinco millones.</p>
+                                <p>Nuestros nombres salieron durante mucho tiempo en los periódicos y la situación se volvió insultante. Obviamente, esto motivó nuestra separación. Ambos tuvimos que cambiarnos de nombre y empezar una nueva vida por separado. Lo habíamos logrado hasta que nos encontramos con motivo de la organización del "III Congreso Internacional de Investigaciones Cardiológicas". Ya ve, la casualidad nos ha vuelto a unir de nuevo en el ridículo.</p>
+                        </div>
+                        
+						<!-- FIN CONTENIDO DE LA PAGINA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            © Campus BBVA. Todos los derechos reservados.
+        </div>
+        <div id="sidr" class="hide">
+            <ul>
+                <a href="fd_01.htm"><li>Texto plano</li></a>
+                <a href="fd_02.htm"><li>Texto con imagen</li></a>
+                <a href="fd_03.htm"><li>Textos destacados I</li></a>
+                <a href="fd_04.htm"><li>Textos destacados II</li></a>
+                <a href="fd_05.htm"><li>Tabla</li></a>
+                <a href="fd_06.htm"><li>Tabla / Acordeón</li></a>
+                <a href="fd_07.htm"><li>Elementos interactivos</li></a>
+                <a href="fd_08.htm"><li>Audio</li></a>
+                <a href="fd_09.htm"><li>Animación</li></a>
+                <li class="marcada"><i class="icon-chevron-right"></i> Vídeo</li>
+            </ul>
+        </div>
+        <!-- CAPAS POPUP -->
+        <!-- FIN CAPAS POPUP -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="vendor/jquery/jquery-1.8.2.min.js"><\/script>');
+        </script>
+        <!-- Include the Sidr JS -->
+        <script src="vendor/sidr/jquery.sidr.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/jplayer/js/jquery.jplayer.min.js"></script>
+        <script type="text/javascript">
+			//<![CDATA[
+			$(document).ready(function(){
+
+				$("#jquery_jplayer_video").jPlayer({
+					ready: function () {
+						$(this).jPlayer("setMedia", {
+							m4v: "media/video/v10a.m4v",
+							ogv: "media/video/v10a.ogv",
+							webmv: "media/video/v10a.webm",
+							poster: "img/poster.png"
+						});
+					},
+					swfPath: "vendor/jplayer/js",
+					supplied: "webmv, ogv, m4v",
+					smoothPlayBar: true,
+					keyEnabled: true
+				});
+				$('.modelo_video video').click(function(){
+					if (playVideo){
+						playVideo = false
+						$(this).attr('poster', 'img/poster.png');
+						$(this).attr('class', 'borderVideo');
+						$(this).get(0).pause();
+					}else{
+						playVideo = true;
+						$(this).removeClass('borderVideo')
+						$(this).get(0).play();
+					}
+				});
+			});
+			//]]>
+		</script>	
+        <script src="js/main.js"></script>
+
+</body></html>
