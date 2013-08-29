@@ -45,5 +45,16 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        if (id=='deviceready'){
+            var url="articulate/story_html5.html";
+            try{
+                navigator.app.loadUrl(url);
+            }catch(e){
+                window.location.href=url; 
+            }
+                   
+        }
+        
     }
 };
